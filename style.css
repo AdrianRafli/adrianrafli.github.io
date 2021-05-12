@@ -1,0 +1,70 @@
+nav {
+  background-color: #222831;
+}
+
+.jumbotron {
+  padding: 3rem;
+  padding-top: 8rem;
+  background-color: #393e46;
+  color: #eee;
+}
+
+#about {
+  background-color: #515761;
+  color: #eee;
+  padding-bottom: 4rem;
+}
+
+#about img {
+  padding-top: -10px;
+}
+
+#projects {
+  background-color: #393e46;
+  padding-bottom: 4rem;
+}
+
+#projects h2 {
+  color: #eee;
+}
+
+#contact {
+  background-color: #515761;
+  color: #eee;
+  padding-bottom: 4rem;
+}
+
+footer {
+  background-color: #222831;
+  color: #eee;
+  padding-bottom: 6px;
+}
+
+footer .col-md-4 {
+  padding-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+footer .contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .contact ul li {
+  margin-bottom: 10px;
+  display: block;
+}
+
+footer .contact ul li .text {
+  padding-left: 15px;
+}
+
+footer .copyright p {
+  padding-top: 80px;
+  font-size: 14px;
+}
