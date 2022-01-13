@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+span {
+    font-weight: 600;
+    color: #FFD369;
+}
+
+.disabled {
+    cursor: auto !important;
+}
+
+/* body */
+nav, .hero, .skills, .contact {
+    background-color: #f8f9fa !important;
+}
+
+.hero, .about-me {
+    height: 600px;
+    padding-top: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero, .about-me-text {
+        padding-top: 60px;
+    }
+
+    .hero-img {
+        max-width: 400px;
+    }
+
+    .hero, .about-me {
+        height: 100vh;
+    }
+
+    .about-img {
+        max-width: 500px; 
+        margin-right: 100px;
+    }
+
+    .skill-img {
+        max-width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-img {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+
+    .skill-img {
+        max-width: 40px;
+    }
+}
+
+/* About Me */
+.about-me, footer {
+    color: #fff;
+}
+
+/* Projects */
+.projects {
+    padding: 100px 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 0 80px 0;
+}
+
+/* Footer  */
+.footer-social {
+    color: #dbdbdb !important;
+    transition: .5s;
+}
+
+.footer-social:hover {
+    transition: .2s;
+    color: #f8f9fa !important;
+}
