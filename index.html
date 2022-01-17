@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrian Maulana Rafli</title>
+    <title>Adrian Maulana Rafli - Portofolio</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
@@ -45,9 +45,6 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link fs-6 ms-4">Home</a>
-                </li>
-                <li class="nav-item">
                     <a href="#about" class="nav-link fs-6 ms-4">About Me</a>
                 </li>
                 <li class="nav-item">
@@ -76,7 +73,7 @@
                     </a>
                 </div>
                 <div class="col-md-6 pt-5">
-                    <img src="assets/svg/hero2.svg" class="hero-img float-end" alt="">
+                  <img src="assets/svg/hero2.svg" class="hero-img float-end" alt="">
                 </div>
             </div>
         </div>
@@ -204,7 +201,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-3 col-sm-6 mb-4 d-flex flex-column justify-content-center align-items-center">
                     <img src="assets/svg/whatsapp.svg" alt="">
-                    <a href="#" target="_blank">
+                    <a href="#">
                         <button type="button" class="btn btn-success mt-3">Chat via Whatsapp</button>
                     </a>
                 </div>
@@ -246,8 +243,32 @@
             </div>
         </div>
     </footer>
+
+    <!-- button go up -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
     
     <!-- Bootstrap Script -->
     <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Button Go Up -->
+    <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        // visibility
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // go up
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 </html>
