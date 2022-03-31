@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrian Maulana Rafli - Portofolio</title>
+    <title>Adrian Maulana Rafli | Portofolio</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 
     <!-- Style -->
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
 
     <!-- Font (Poppins) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,84 +23,107 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark p-md-1 px-sm-4 shadow-sm">
-        <div class="container">
-            <a href="#" class="navbar-brand fs-2 fw-bold" style="color: #FFD369;">Adrian</a>
-            <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-target="#navbarNav"
-            data-bs-toggle="collapse"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle Navbar"
-            >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#about" class="nav-link fs-6 ms-4">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link fs-6 ms-4">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link fs-6 ms-4">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link fs-6 ms-4">Contact</a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-
-    <!-- Hero -->
-    <section class="hero" id="hero">
-        <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-7 col-sm-12">
-                    <h2 class="nama">Adrian Maulana Rafli</h2>
-                    <p class="mb-5">Front-End Developer & UI/UX Design</p>
-                    <a href="#about">
-                        <button type="button" class="btn btn-dark">About Me <i class="bi bi-arrow-down"></i></button>
-                    </a>
-                </div>
-                <div class="col-md-5 pt-5">
-                  <img src="assets/svg/hero.svg" class="hero-img float-end" alt="">
+    
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light mt-2 mx-5">
+            <div class="container-fluid justify-content-between">
+                <a class="navbar-brand fs-2 fw-bold me-4" href="#">Adrian</a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#projects">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </nav>
 
-    <!-- About Me -->
-    <section class="about-me bg-dark" id="about">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-6">
-                    <img src="assets/svg/portofolio.svg" class="about-img float-start" alt="">
-                </div>
-                <div class="col-md-6 about-me-text">
-                    <h2 class="mb-5 fs-1 fw-bold text-center">About Me</h2>
-                    <p class="fs-5 mb-4">Saat ini saya bersekolah di <span>SMK N 8 Semarang</span>. Memilih jurusan RPL dan mendalami pemrograman <span>Web</span>, khususnya dalam bidang <span>Front-End</span>. Saya juga sedang mendalami <span>UI/UX Design</span>.</p>
-                    <p class="fs-5">Saya berpengalaman magang di salah satu instansi bernama <span>Gamelan Research Institute</span> dengan membuat project Game. Saya tertarik untuk mempelajari hal baru untuk menambah Ilmu dan mengasah Skill Saya.</p>
+        <!-- Hero -->
+        <section class="hero mx-5" id="hero">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 col-sm-12 hero-col">
+                    <h1 class="text-center fw-bolder name mb-2">Hello, I'm Adrian.</h1>
+                    <h3 class="text-center title">A Front-End Developer</h3>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills -->
-    <section class="skills" id="skills">
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-around" style="padding: 100px 20px;">
-                <h2 class="mb-2 fs-1 fw-bold text-center">Skills</h2>
-                <p class="mb-5 fs-5 text-center">Berikut adalah skill yang saya kuasai dalam <span>2 Tahun</span> terakhir</p>
+        <hr class="garis-hero">
+        <img src="assets/svg/dots.svg" class="dots" alt="">
+
+        <!-- About Me -->
+        <section class="about-me mx-2" id="about-me">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <img src="assets/svg/about.svg" class="about-img float-start pe-5" alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 mb-4 about-me-content">
+                    <h2 class="text-center fw-bold title-section mb-5">About Me</h2>
+                    <p>Saya adalah Pelajar yang tertarik dalam dunia Programming, khususnya Web Programming. dan saya juga meminati bidang Front-End dan UI/UX Design. <br> <br>
+                        Saya suka mengimplementasikan Desain ke dalam Website. Saat ini saya juga sedang mendalami bidang Backend-End agar lebih memahami sepenuhnya tentang Web Development.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <!-- Education Timeline -->
+        <section class="edu m-5" id="education">
+            <h2 class="text-center fw-bold title-section">Education</h2>
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2011</div>
+                    <div class="timeline-content">
+                        <h3>SD</h3>
+                        <p>Saya bersekolah di SD N 01 Bandungrejo, lalu setelah 1 Semester, saya pindah ke SD N 01 Karanganyar</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2016</div>
+                    <div class="timeline-content">
+                        <h3>SMP</h3>
+                        <p>Saya bersekolah di MTS N 1 Karanganyar, lalu setelah 1 Semester, saya pindah ke SMP Kesatrian 1 Semarang</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3>SMK</h3>
+                        <p>Saya bersekolah di SMK N 8 Semarang, dengan jurusan Rekayasa Perangkat Lunak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+    <section class="skills mb-5" id="skills">
+            <div class="row d-flex justify-content-around">
+                <div>
+                    <h2 class="pt-5 fs-1 fw-bold text-center">Skills</h2>
+                    <p class="fs-5 text-center">Berikut adalah skill yang saya kuasai dalam <span>2 Tahun</span> terakhir</p>
+                </div>
                 <!-- Front End -->
                 <div class="col-md-5 mb-4 mt-2 border rounded-3 shadow p-5">
                     <h4 class="mb-4 text-center">Website</h4>
@@ -124,7 +147,7 @@
                         </div>
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
                             <img src="assets/svg/bootstrap.svg" class="skill-img" alt="">
-                            <p class="text-center">Bootstrap</p>
+                                <p class="text-center">Bootstrap</p>
                         </div>
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
                             <img src="assets/svg/vscode.svg" class="skill-img" alt="">
@@ -148,22 +171,21 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects -->
-    <section class="projects bg-dark" id="projects">
-        <div class="container">
-            <h2 class="mb-5 fs-1 text-center text-light">Projects</h2>
+        <hr>
+
+        <section class="project" id="projects">
+            <h2 class="text-center fw-bold title-section mb-5">Portofolio</h2>
             <div class="row row-cols-md-2 g-4">
-                <div class="col-md-6">
-                    <div class="card h-100">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card h-100 shadow">
                         <img src="assets/project/tokoku.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Tokoku</h5>
                             <p class="card-text">Project Website E-Commerce Sederhana menggunakan PHP, MySQL, dan Bootstrap</p>
                             <div class="button-link d-flex">
-                                <a href="https://tokoku-shop.herokuapp.com/" target="_blank">
+                                <a href="https://projecttokoku.000webhostapp.com/" target="_blank">
                                     <button type="button" class="btn btn-dark me-2">Kunjungi Website</button>
                                 </a>
                                 <a href="https://github.com/AdrianRafli/website-tokoku" target="_blank">
@@ -173,103 +195,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card h-100">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card h-100 shadow">
                         <img src="assets/project/pemilos.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title fw-bold">E-Pemilos</h5>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Pemilos</h5>
                             <p class="card-text">Project Website Pemilos untuk SMK N 8 Semarang menggunakan PHP, MySQL, dan Bootstrap</p>
                             <div class="button-link d-flex">
-                                <a href="#" class="disabled">
-                                    <button type="button" class="btn btn-dark me-2" disabled>Kunjungi Website</button>
-                                </a>
-                                <a href="#" class="disabled">
-                                    <button type="button" class="btn btn-dark" disabled>Github</button>
-                                </a>
+                                <button type="button" class="btn btn-dark me-2" disabled>Kunjungi Website</button>
+                                <button type="button" class="btn btn-dark" disabled>Github</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>    
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="mb-4 fs-1 fw-bold text-center">Contact Me</h2>
-            <p class="mb-5 fs-5 text-center">Get in touch with me to run project together</p>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-3 col-sm-6 mb-4 d-flex flex-column justify-content-center align-items-center">
-                    <img src="assets/svg/whatsapp.svg" class="contact-icon" alt="">
-                    <a href="#">
-                        <button type="button" class="btn btn-success mt-3">Chat via Whatsapp</button>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-4 d-flex flex-column justify-content-center align-items-center">
-                    <img src="assets/svg/instagram.svg" class="contact-icon" alt="">
-                    <a href="https://www.instagram.com/adrianrafly_/" target="_blank">
-                        <button type="button" class="btn btn-danger mt-3">Chat via DM</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-dark">
-        <div class="container">
-            <div class="row pt-3 align-items-center">
-                <div class="col-md-6 col-sm-12">
-                    <p class="fs-6 text-center">
-                        &copy; <script>document.write(new Date().getFullYear())</script> Adrian Maulana Rafli
-                    </p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <ul class="d-flex justify-content-center">
-                        <li class="list-inline-item me-4">
-                            <a href="https://www.facebook.com/adrian.m.rafli.9" target="_blank" class="footer-social fs-4"><i class="bi bi-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item me-4">
-                            <a href="https://www.instagram.com/adrianrafly_/" target="_blank" class="footer-social fs-4"><i class="bi bi-instagram"></i></a>
-                        </li>
-                        <li class="list-inline-item me-4">
-                            <a href="https://twitter.com/ianxven" target="_blank" class="footer-social fs-4"><i class="bi bi-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/AdrianRafli" target="_blank" class="footer-social fs-4"><i class="bi bi-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
+    <footer class="container-fluid bg-dark">
+        <div class="row pt-3 align-items-center">
+            <div class="col-md-6 col-sm-12">
+                <p class="text-center copyright">
+                    &copy; <script>document.write(new Date().getFullYear())</script> Adrian Maulana Rafli
+                </p>
             </div>
-        </div>
+            <div class="col-md-6 col-sm-12">
+                <ul class="d-flex justify-content-center footer-list">
+                    <li class="list-inline-item me-4">
+                        <a href="https://www.linkedin.com/in/adrianrafli/" target="_blank" class="footer-social"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item me-4">
+                        <a href="https://www.instagram.com/adrianrafly_/" target="_blank" class="footer-social"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item me-4">
+                        <a href="https://twitter.com/ianxven" target="_blank" class="footer-social"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/AdrianRafli" target="_blank" class="footer-social"><i class="bi bi-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
     </footer>
 
-    <!-- button go up -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
-    
-    <!-- Bootstrap Script -->
-    <script src="dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Button Go Up -->
-    <script>
-        mybutton = document.getElementById("myBtn");
-        window.onscroll = function() {scrollFunction()};
-
-        // visibility
-        function scrollFunction() {
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // go up
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    </script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
