@@ -110,7 +110,22 @@ body {
 .tech {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+}
+.tech img {
+    width: 32px;
+    height: auto;
+}
+.btn-resume {
+    background-color: var(--primary);
+    color: var(--background);
+    font-weight: var(--bold);
+    opacity: .7;
+    transition: .3s;
+}
+.btn-resume:hover {
+    opacity: 1;
+    transition: .3s;
 }
 .hero-img {
     display: flex;
@@ -186,7 +201,7 @@ body {
 
 @media(max-width: 768px) {
     .about {
-        margin-top: 0;
+        margin-top: 50px;
         padding-left: 18px;
         height: 80vh;
     }
@@ -263,7 +278,7 @@ body {
 }
 @media(max-width: 768px) {
     .projects {
-        margin-top: 300px;
+        margin-top: 50px;
     }
     .project-text {
         padding: 0 24px;
@@ -341,7 +356,7 @@ body {
 
 @media(max-width: 768px) {
     .contact {
-        margin-top: 150px;
+        margin-top: 50px;
         height: 80vh;
     }
     .contact-icon {
