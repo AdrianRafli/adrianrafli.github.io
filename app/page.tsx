@@ -3,15 +3,16 @@ import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
+import Reveal from "@/components/ui/reveal"
 
 export default function Home() {
   return (
     <main className="mx-auto max-w-5xl px-6">
       <Hero />
-      <About />
-      <Experience />
+      <Reveal><About /></Reveal>
+      <Reveal><Experience /></Reveal>
       <Projects />
-      <Contact />
+      <Reveal><Contact /></Reveal>
     </main>
   );
 }
